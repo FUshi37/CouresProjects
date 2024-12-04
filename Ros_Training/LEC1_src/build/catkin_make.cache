@@ -1,0 +1,2 @@
+beginner_tutorial
+-DCATKIN_DEVEL_PREFIX=/home/yangzhe/LEC1_src/devel -DCMAKE_INSTALL_PREFIX=/home/yangzhe/LEC1_src/install -G Unix Makefiles

@@ -1,0 +1,19 @@
+<package format="2">
+  <name>lab1</name>
+  <version>1.0.0</version>
+  <description>
+		lab1 demonstrates how to use publisher and subscriber to complete a simple tasks based on turtlesim
+	</description>
+  <maintainer email="fastlab@fastlab.org">Fastlab</maintainer>
+  <license>MIT</license>
+  <author>Fastlab</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+	
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_srvs</depend>	
+  <depend>turtlesim</depend>
+
+</package>

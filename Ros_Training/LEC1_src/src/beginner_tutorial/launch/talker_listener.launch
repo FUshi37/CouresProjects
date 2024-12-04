@@ -1,0 +1,15 @@
+<launch>
+    <arg name="topic_name_" default="chatter_zju"/>
+
+    <node name="listener" pkg="beginner_tutorials" type="listener" output="screen">
+        <remap from= "chatter" to="$(arg topic_name_)" />
+    </node>
+
+    <node name="talker" pkg="beginner_tutorials" type="talker" output="screen">
+        <remap from= "chatter" to="$(arg topic_name_)" />
+        <param name="pub_frequency" value="10" type="int"/>
+    </node>
+
+</launch>
+
+

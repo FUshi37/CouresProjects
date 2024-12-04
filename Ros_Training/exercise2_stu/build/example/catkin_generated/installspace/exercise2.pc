@@ -1,0 +1,8 @@
+prefix=/home/yangzhe/exercise2_stu/install
+
+Name: exercise2
+Description: Description of exercise2
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

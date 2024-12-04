@@ -1,0 +1,8 @@
+prefix=/home/yangzhe/exercise2_stu/install
+
+Name: key_sim
+Description: Description of key_sim
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

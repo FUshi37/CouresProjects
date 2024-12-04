@@ -1,0 +1,49 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/bbbbigrui/FUEL_ws/devel/include/**",
+        "/home/bbbbigrui/SimEnv_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/fuel_planner/active_perception/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/fuel_planner/bspline/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/fuel_planner/bspline_opt/include/**",
+        "/home/bbbbigrui/SimEnv_ws/src/uav_simulator/Utils/DecompROS/decomp_ros_utils/include/**",
+        "/home/bbbbigrui/SimEnv_ws/src/object_detection/detection_filter/include/**",
+        "/home/bbbbigrui/SimEnv_ws/src/planner/drone_detect/include/**",
+        "/home/bbbbigrui/SimEnv_ws/src/planner/plan_manage/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/fuel_planner/exploration_manager/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/fuel_planner/utils/lkh_tsp_solver/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/uav_simulator/local_sensing/include/**",
+        "/home/bbbbigrui/SimEnv_ws/src/uav_simulator/mockamap/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/uav_simulator/Utils/multi_map_server/include/**",
+        "/home/bbbbigrui/SimEnv_ws/src/odom_correction/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/fuel_planner/path_searching/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/fuel_planner/plan_env/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/fuel_planner/plan_manage/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/fuel_planner/poly_traj/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/uav_simulator/Utils/pose_utils/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/uav_simulator/Utils/quadrotor_msgs/include/**",
+        "/home/bbbbigrui/SimEnv_ws/src/uwb/serial/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/uav_simulator/so3_control/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/uav_simulator/so3_disturbance_generator/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/uav_simulator/so3_quadrotor_simulator/include/**",
+        "/home/bbbbigrui/SimEnv_ws/src/planner/swarm_bridge/include/**",
+        "/home/bbbbigrui/SimEnv_ws/src/planner/traj_opt/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/fuel_planner/traj_utils/include/**",
+        "/home/bbbbigrui/FUEL_ws/src/uav_simulator/Utils/uav_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

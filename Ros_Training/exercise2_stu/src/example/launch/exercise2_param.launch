@@ -1,0 +1,29 @@
+<launch>
+
+<!-- example launch -->
+  <node pkg="exercise2" name="exercise2_param_node" type="exercise2_param_node" output="screen">
+    <!-- TODO -->
+  <!-- remap odom topic -->
+    <remap from="/odom" to="/visual_slam/odom"/>
+    <param name="~spin_rate" value="100.0" type="double"/>
+    <!-- your code for param read -->
+    <param name="~waypoint_num_" value="5" type="int"/>
+    <param name="~waypoints0_x" value="-9" type="double"/>
+    <param name="~waypoints0_y" value="0" type="double"/>
+    <param name="~waypoints0_z" value="0" type="double"/>
+    <param name="~waypoints1_x" value="0" type="double"/>
+    <param name="~waypoints1_y" value="9" type="double"/>
+    <param name="~waypoints1_z" value="1" type="double"/>
+    <param name="~waypoints2_x" value="9" type="double"/>
+    <param name="~waypoints2_y" value="0" type="double"/>
+    <param name="~waypoints2_z" value="1" type="double"/>
+    <param name="~waypoints3_x" value="0" type="double"/>
+    <param name="~waypoints3_y" value="-9" type="double"/>
+    <param name="~waypoints3_z" value="1" type="double"/>
+    <param name="~waypoints4_x" value="-9" type="double"/>
+    <param name="~waypoints4_y" value="0" type="double"/>
+    <param name="~waypoints4_z" value="1" type="double"/>
+  </node>
+
+
+</launch>

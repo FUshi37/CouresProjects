@@ -1,0 +1,9 @@
+<launch>  
+   
+  <node pkg="key_sim" name="key_sim_node" type="key_sim.py" output="screen">
+  </node>
+
+ </launch>
+
+
+

@@ -1,0 +1,13 @@
+<launch>
+    <arg name="topic_name_" default="tuetle1"/>
+
+    <node name="lab1_node" pkg="lab1" type="lab1_node" output="screen">
+        <remap from= "turtle1" to="$(arg topic_name_)" />
+        <param name="move_flag" value="1" type="int"/>
+    </node>
+
+    <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" output="screen">
+    </node>
+
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find lab1)/launch/default.rviz" required="true" />
+</launch>

@@ -1,0 +1,5 @@
+catkin_make plan_env_generate_messages
+catkin_make ego_planner_generate_messages
+catkin_make multi_map_server_generate_messages
+catkin_make
+
